@@ -1,0 +1,53 @@
+.projects {
+
+    background: white;
+    padding: 4.5rem 7.2vw;
+
+    .project_unit {
+        margin-top: 2rem;
+
+        .project_header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .project_link {
+            display: inline-block;
+            a {
+                color: blue;
+            }
+        }
+
+        .project_details {
+            display: grid;
+            grid-column-gap: 4vw;
+            grid-template-columns: 40vw 40vw;
+            .project_image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .project_details_description{
+                text-align: justify;
+                opacity: 0.5;
+                font-size: 1.1rem;
+            }
+
+            .project_details_stack{
+                padding-bottom: 0.5em;
+                display: grid;
+                grid-template-columns: 20% auto;
+
+                span:first-child{
+                    font-weight: bold;  
+                }
+                span:last-child{
+                    opacity: 0.5;
+                }
+
+            }
+        }   
+    }
+}
