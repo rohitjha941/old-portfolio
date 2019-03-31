@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./about.scss";
 import { Element } from "react-scroll";
-import Resume from "../../static/resume.pdf"
+import Resume from "../../static/resume.pdf";
 
 export default class About extends Component {
   render() {
@@ -12,10 +12,11 @@ export default class About extends Component {
           I am a sophomore at IIT Roorkee, studying B. Tech. Engineering
           Physics. I have a keen interest in Programming. My areas of interests
           include Back-End, Containers & Cloud as Code. I love to play with tech
-          around me.
+          around me. I'm a quick learner and a problem solver with a experience
+          in the web development
         </div>
 
-        <h1 style={{ paddingTop: "4rem" }}>I can work on</h1>
+        <h1 style={{ paddingTop: "4rem" }}>I have worked on</h1>
 
         <div className="work_array">
           <div className="work_unit">
@@ -52,9 +53,11 @@ export default class About extends Component {
           </div>
         </div>
 
-        <div className = "about_resume">
-          <a target = "_blank" rel="noopener noreferrer" href = {Resume}> Resume </a>
-        
+        <div className="about_resume">
+          <a target="_blank" rel="noopener noreferrer" href={Resume}>
+            
+            Resume
+          </a>
         </div>
       </Element>
     );
