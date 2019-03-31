@@ -3,6 +3,7 @@ import "./header.scss";
 import { Link } from "react-scroll";
 import Home from "../home/home";
 import Projects from "../projects/project";
+import Contact from "../contact/contact";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -20,7 +21,18 @@ export default class Header extends Component {
     return (
       <>
         <div id="heade" className="nav">
-          <span className="nav_brand">Rohit Jha</span>
+          <span className="nav_brand">
+            <Link
+                
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Rohit Jha{" "}
+            </Link>
+          </span>
 
           <span className="nav_array">
             <Link
@@ -44,11 +56,23 @@ export default class Header extends Component {
             >
               Projects
             </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Contact
+            </Link>
           </span>
         </div>
 
         <Home />
         <Projects />
+        <Contact />
       </>
     );
   }

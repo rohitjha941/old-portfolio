@@ -1,0 +1,41 @@
+.contact {
+    background: #F5F5F5;
+    padding: 4.5rem 7.2vw;
+    font-size: 1.2rem;
+    .contact_unit{
+        color: black;
+        font-size: 0.9em;
+        margin-top: 1em;
+        
+        a{
+            color: black;
+        } 
+        
+    }
+
+    .contact_array{
+
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 1rem;  
+        span{
+            font-weight:500; 
+            
+            display: block;
+        }
+
+        .contact_unit{
+                line-height: 140%;
+        }
+    }
+}
+
+.credits{
+    background: white;
+    padding: 0.7rem 7.2vw;
+    text-align: center;
+
+    i{
+        color: #6F4E37;
+    }
+}

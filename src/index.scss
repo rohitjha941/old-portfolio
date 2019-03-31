@@ -16,12 +16,12 @@
      display: inline-block;
 
      &::after {
-         border-bottom: 3px solid rgba(red , 1);
+         border-bottom: 3px solid rgba(#F03C3C , 1);
          content: "";
          left: 0;
          bottom: 0;
          width: 50%;
-         position: absolute;
+         position: absolute;    
 
      }
  }
