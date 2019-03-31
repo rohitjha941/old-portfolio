@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import Home from "../home/home";
 import Projects from "../projects/project";
 import Contact from "../contact/contact";
+import About from "../about/about";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -30,7 +31,7 @@ export default class Header extends Component {
               duration={500}
               className="nav_items"
             >
-              Rohit Jha{" "}
+              Rohit Jha
             </Link>
           </span>
 
@@ -44,6 +45,17 @@ export default class Header extends Component {
               className="nav_items"
             >
               Home
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              About
             </Link>
 
             <Link
@@ -71,6 +83,7 @@ export default class Header extends Component {
         </div>
 
         <Home />
+        <About />
         <Projects />
         <Contact />
       </>

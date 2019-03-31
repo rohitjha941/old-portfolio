@@ -10,9 +10,9 @@ export default class Contact extends Component {
 
           <div className="contact_array">
             <div className="contact_offline">
-              <span>
+              <h3>
                 For any enquiries, or just to say hello, get in touch!
-              </span>
+              </h3>
               <div className="contact_unit">
                 <a href="mailto:rjha@ph.iitr.ac.in">
                   <i class="fas fa-envelope" />
@@ -20,7 +20,7 @@ export default class Contact extends Component {
                 </a>
               </div>
               <div className="contact_unit">
-                <i class="fas fa-phone" /> &nbsp;(+91) 7587 369092
+                <i class="fas fa-phone" /> &nbsp;(+91) 7587 369029
               </div>
             </div>
 
