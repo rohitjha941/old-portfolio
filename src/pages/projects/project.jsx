@@ -107,26 +107,22 @@ export default class Projects extends Component {
               <br />
               <br />
 
-              {/*
               <h3>About</h3>
               <div className="project_details_description">
-                Tinkering Lab is a technical facility, where students can learn,
-                develop, conceptualize and experiment with different innovative
-                ideas. Students use this lab as a platform to build, innovate
-                and tinker by converting creative ideas into fine engineered
-                products. The lab is equipped with state-of-the-art tools and
-                technologies such as 3D printers, Laser Etching Machine, Fume
-                Hood, Electronics, Wood Carving Machine, CNC, Vertical Machining
-                Centre, chemicals, power and hand tools. 
-                <br />
-                <br />
-                Rethink Portal is the official portal of Tinkering Lab. It helps
-                in the dissemination of information such as Events, Achievement,
-                Projects, etc. It also enables users to create a project, get
-                approval for the project, submit report & get an item issued
-                from the lab.
+                IIT Roorkee has a history of creating leaders and pioneers of
+                different fields for over 150 years. In the modern day world,
+                entrepreneurs are at the spearhead of solving the world’s
+                problems. To celebrate these facts, E-Summit IIT Roorkee brings
+                a platform to celebrate the history and the spirit of
+                entrepreneurship; and to inspire the leaders and roblem solvers
+                of today and tomorrow. This 2-day extravaganza will see
+                students, corporates, entrepreneurs and budding enthusiasts on a
+                common stage. This event in IIT Roorkee will surely prove to be
+                the home of extensive networking, inspiring stories and a
+                breeding ground for future solutions.
+   
+ 
               </div>
-              */}
             </div>
           </div>
         </div>
@@ -178,7 +174,9 @@ export default class Projects extends Component {
                 come up with creative ideas and practical innovations.
                 <br />
                 <br />
-                 
+                This web portal helps in the dissemination of information such
+                as projects, events, groups, etc. It allows students if IITR to
+                generate & collect their e-Certificates.
               </div>
             </div>
           </div>

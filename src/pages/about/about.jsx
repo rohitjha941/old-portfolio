@@ -12,7 +12,7 @@ export default class About extends Component {
           I am a sophomore at IIT Roorkee, studying B. Tech. Engineering
           Physics. I have a keen interest in Programming. My areas of interests
           include Back-End, Containers & Cloud as Code. I love to play with tech
-          around me. I'm a quick learner and a problem solver with a experience
+          around me. I'm a quick learner and a problem solver with an experience
           in the web development
         </div>
 
