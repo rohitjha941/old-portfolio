@@ -69,7 +69,7 @@ export default class Projects extends Component {
           </div>
         </div>
 
-        <div className="project_unit">
+        <div className="project_unit project_margin">
           <div className="project_header">
             <h2> E-Summit 2019</h2>
             <div className="project_link">
@@ -120,14 +120,12 @@ export default class Projects extends Component {
                 common stage. This event in IIT Roorkee will surely prove to be
                 the home of extensive networking, inspiring stories and a
                 breeding ground for future solutions.
-   
- 
               </div>
             </div>
           </div>
         </div>
 
-        <div className="project_unit">
+        <div className="project_unit project_margin">
           <div className="project_header">
             <h2> Srishti 2019</h2>
             <div className="project_link">

@@ -49,6 +49,17 @@ export default class Header extends Component {
 
             <Link
               activeClass="nav_array_active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="nav_items"
+            >
+              Projects
+            </Link>
+
+            <Link
+              activeClass="nav_array_active"
               to="about"
               spy={true}
               smooth={true}
@@ -58,16 +69,7 @@ export default class Header extends Component {
               About
             </Link>
 
-            <Link
-              activeClass="nav_array_active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="nav_items"
-            >
-              Projects
-            </Link>
+           
 
             <Link
               activeClass="nav_array_active"
@@ -83,8 +85,9 @@ export default class Header extends Component {
         </div>
 
         <Home />
-        <About />
         <Projects />
+        <About />
+        
         <Contact />
       </>
     );
