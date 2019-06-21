@@ -25,7 +25,7 @@ export default class About extends Component {
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript</li>
-              <li>ReactJs</li>
+              <li>ReactJs (+ React-Redux)</li>
               <li>Angular 7</li>
             </ul>
           </div>
@@ -37,7 +37,7 @@ export default class About extends Component {
               <li>Django Rest Framework</li>
               <li>MySQL</li>
               <li>PostgreSQL</li>
-              <li>PHP</li>
+              <li>PHP(+ laravel)</li>
             </ul>
           </div>
 
@@ -46,16 +46,15 @@ export default class About extends Component {
             <ul>
               <li>Ubuntu Server</li>
               <li>Nginx</li>
-              <li>Gunicorn</li>
               <li>Docker (+ Compose)</li>
-              <li>Windows Server with IIS</li>
+              <li>Windows Server (+ IIS)</li>
+              <li>Terraform (AWS)</li>
             </ul>
           </div>
         </div>
 
         <div className="about_resume">
           <a target="_blank" rel="noopener noreferrer" href={Resume}>
-            
             Resume
           </a>
         </div>
