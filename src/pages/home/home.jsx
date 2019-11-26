@@ -10,22 +10,13 @@ export default class Home extends Component {
           <span />
         </div>
         <div>
-          <div className="home_name">I am Rohit Jha</div>
-          <div className="home_det">Software Developer | Web Developer | DevOps</div>
-          <div className = "home_abt">
-          <Link
-              activeClass="nav_array_active"
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="nav_items"
-            >
-              About Me
-            </Link>
-          
-          
+          <div className="home_name">
+          Hello! I'm Rohit 
+          <br />
+          I'm a Developer
           </div>
+ 
+ 
         </div>
       </Element>
     );
