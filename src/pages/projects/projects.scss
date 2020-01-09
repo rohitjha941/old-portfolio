@@ -1,60 +1,55 @@
 .projects {
+  display: flex;
+  flex-direction: row;
+  margin: 1.875rem 6.25rem;
+  .projects_unit {
+    background: #2e2e2e 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 49.1875rem;
+    width: 23.9375rem;
 
-    background: white;
-    padding: 4.5rem 7.2vw;
-
-    .project_unit {
-        
-
-        .project_header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .project_link {
-            display: inline-block;
-            a {
-                color: blue;
-            }
-        }
-
-        .project_details {
-            display: grid;
-            grid-column-gap: 4vw;
-            grid-template-columns: 40vw 40vw;
-            .project_image {
-                img {
-                    width: 100%;
-                }
-            }
-
-            .project_details_description{
-                text-align: justify;
-                opacity: 0.5;
-                font-size: 1.1rem;
-            }
-
-            .project_details_stack{
-                padding-bottom: 0.5em;
-                display: grid;
-                grid-template-columns: 20% auto;
-
-                span:first-child{
-                    font-weight: bold;  
-                }
-                span:last-child{
-                    opacity: 0.5;
-                }
-
-            }
-        }   
+    .project_image {
+      width: 100%;
     }
 
-    .project_margin{
-        margin-top: 5rem;
+    .project_details {
+      padding: 0em 2.0625rem;
     }
-    
 
-    
+    .project_title {
+      text-align: left;
+      font-size: 1.625rem;
+      letter-spacing: 0;
+      color: #ffffff;
+      text-transform: uppercase;
+      opacity: 1;
+      padding-top: 0.625rem;
+    }
+
+    .project_description {
+      text-align: left;
+      font-size: 1.5rem;
+      letter-spacing: 0;
+      color: #a1a1a1;
+      opacity: 1;
+      padding-top: 0.625rem;
+    }
+
+    .project_links {
+        margin-top: 2.3125rem;
+      button {
+        font-size: 18px;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        opacity: 1;
+        border: none;
+        background: none;
+        margin:0;
+        padding:0;
+        cursor : pointer;
+        margin-right: 1.875rem;
+      }
+    }
+  }
 }

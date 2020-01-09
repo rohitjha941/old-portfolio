@@ -1,50 +1,10 @@
+@import "./styles/index.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap');
-$headerColor : #00C100;
+html,
+body {
+  font-size: 16px;
+}
 
- html,
- body {
-     padding: 0;
-     margin: 0;
-     font-family: 'Rajdhani', sans-serif;
-     font-size: 16px;
- }
-
- body {
-     overflow-x: hidden;
- }
-
- h1 {
-     font-size: 1.8rem;
-     padding: 0 0 0.5em 0;
-     position: relative;
-     display: inline-block;
-
-     &::after {
-         border-bottom: 3px solid rgba(#F03C3C , 1);
-         content: "";
-         left: 0;
-         bottom: 0;
-         width: 50%;
-         position: absolute;    
-
-     }
- }
-
- h2{
-     font-size: 1.6rem;
-     display: inline-block;
- }
-
- a{
-     text-decoration: none;
- }
- 
- h3{
-     margin-top:  0;
-     margin-bottom: 0.5em;
- }
-
- 
-
- 
+body{
+    background-color: $backgroundColor;
+}
