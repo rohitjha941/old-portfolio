@@ -35,14 +35,13 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
-
         <div className="projects_unit">
           <img className="project_image" src={Radio} alt="College Radio" />
           <div className="project_details">
             <div className="project_title">College Radio </div>
 
             <div className="project_description">
-
+            College Radio allows simultaneous live viewing of videos in real-time, akin to facebook’s watch party. It also allows real-time changes in track and queues.  Synchronization is achieved using WebSockets.
             </div>
 
             <div className="project_links">
@@ -72,11 +71,11 @@ export default class Projects extends Component {
             <div className="project_title">Srishti Website </div>
 
             <div className="project_description">
-              
+            Srishti is the Annual Technical Exhibition of IIT Roorkee that aims towards integrating all realms of technical activities conducted within the R-land. Srishti has inspired the brilliant minds of our institute to come up with creative ideas and practical innovations
             </div>
 
             <div className="project_links">
-  
+
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -84,7 +83,7 @@ export default class Projects extends Component {
               >
                 <button> Visit</button>
               </a>
-         
+
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -100,7 +99,7 @@ export default class Projects extends Component {
         <div className="projects_unit">
           <img className="project_image" src={Esummit} alt="E-Summit Website" />
           <div className="project_details">
-            <div className="project_title">E-Summit 2019 </div>
+            <div className="project_title">E-Summit Website </div>
 
             <div className="project_description">
               E-Summit IIT Roorkee brings a platform to celebrate the history
