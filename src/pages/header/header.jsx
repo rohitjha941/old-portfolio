@@ -37,6 +37,15 @@ export default class Header extends Component {
             Projects
           </Link>
 
+          <a
+            class="nav_items nav_margin"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/open?id=1H0uQjfwfwHboeyjpuuSHYBV3uM8bWoXd"
+          >
+            Résumé
+          </a>
+
           <Link
             activeClassName="nav_array_active"
             to="/about"
