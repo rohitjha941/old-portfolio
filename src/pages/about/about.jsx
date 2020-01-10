@@ -12,6 +12,37 @@ export default class About extends Component {
           Containers & Cloud as Code & I love working on projects which
           simplifies lives. I've worked with various diverse web, cloud and
           server technologies.
+          <br />
+          <br />
+          <br />
+          <div className="about-head">Connect</div>
+          <div>
+            <a className="about-connect-link" href="mailto:rjha@ph.iitr.ac.in">
+              <i class="fas fa-envelope" /> rjha@ph.iitr.ac.in
+            </a>
+
+            <a
+              target="_blank"
+              className="about-connect-link"
+              rel="noopener noreferrer"
+              href="https://github.com/rohitjha941/"
+            >
+              <i class="fab fa-github" /> Github
+            </a>
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://www.linkedin.com/in/rohitjha941"
+              className="about-connect-link"
+            >
+              <i class="fab fa-linkedin-in" /> Linkedin
+            </a>
+
+            <a className="about-connect-link">
+              <i class="fas fa-phone" /> (+91) 7587 3690929
+            </a>
+          </div>
         </div>
 
         <div className="about-skills">

@@ -26,4 +26,12 @@
     text-transform: uppercase;
     opacity: 1;
   }
+  .about-connect-link{
+      display: block;
+      margin-bottom: 1em;
+
+      .fas{
+          width: 1em;
+      }
+  }
 }
