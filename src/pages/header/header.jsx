@@ -40,7 +40,7 @@ export default class Header extends Component {
           <Link
             activeClassName="nav_array_active"
             to="/about"
-            className="nav_items"
+            className="nav_items nav_margin"
           >
             About
           </Link>

@@ -1,13 +1,22 @@
+@import "../../index.scss";
+.projects::-webkit-scrollbar { width: 0 !important }
+.projects { overflow: -moz-scrollbars-none; }
+.projects { -ms-overflow-style: none; }
+
+
 .projects {
-  display: flex;
-  flex-direction: row;
-  margin: 1.875rem 6.25rem;
+  display: grid;
+  margin: 1.375rem $leftRightPadding;
+  grid-template-columns: repeat(4, 23.9375rem);
+  justify-content: space-between;
+  grid-row-gap: 6.25rem;
   .projects_unit {
-    background: #2e2e2e 0% 0% no-repeat padding-box;
+    background: $backgroundColor2;
     opacity: 1;
     height: 49.1875rem;
     width: 23.9375rem;
-
+    position: relative;
+    // margin-right: 6.25rem;
     .project_image {
       width: 100%;
     }
@@ -20,7 +29,7 @@
       text-align: left;
       font-size: 1.625rem;
       letter-spacing: 0;
-      color: #ffffff;
+      color: $white;
       text-transform: uppercase;
       opacity: 1;
       padding-top: 0.625rem;
@@ -30,24 +39,22 @@
       text-align: left;
       font-size: 1.5rem;
       letter-spacing: 0;
-      color: #a1a1a1;
+      color: $darkWhite;
       opacity: 1;
       padding-top: 0.625rem;
     }
 
     .project_links {
-        margin-top: 2.3125rem;
+      position: absolute;
+      bottom: 1.6875rem;
       button {
-        font-size: 18px;
+        font-size: 1.125rem;
         letter-spacing: 0;
-        color: #ffffff;
+        color: $white;
         text-transform: uppercase;
-        opacity: 1;
         border: none;
         background: none;
-        margin:0;
-        padding:0;
-        cursor : pointer;
+        cursor: pointer;
         margin-right: 1.875rem;
       }
     }

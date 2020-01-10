@@ -3,10 +3,12 @@ import "./projects.scss";
 import Rethink from "../../static/projects/rethink.png";
 import Esummit from "../../static/projects/esummit.png";
 import Srishti from "../../static/projects/srishti.png";
+// import HorizontalScroll from "react-scroll-horizontal";
 export default class Projects extends Component {
+ 
   render() {
     return (
-      <div className="projects">
+      <div reverseScroll={true} className="projects">
         <div className="projects_unit">
           <img className="project_image" src={Rethink} alt="Rethink Portal" />
 
@@ -22,11 +24,44 @@ export default class Projects extends Component {
             </div>
 
             <div className="project_links">
-              <button> Visit</button>
-              <button> Code </button>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://tinkeringlab.iitr.ac.in/"
+              >
+                <button> Visit</button>
+              </a>
+              {/* b<button> Code </button> */}
             </div>
           </div>
         </div>
+
+        <div className="projects_unit">
+          <img className="project_image" src={Esummit} alt="E-Summit Website" />
+          <div className="project_details">
+            <div className="project_title">E-Summit 2019 </div>
+
+            <div className="project_description">
+              E-Summit IIT Roorkee brings a platform to celebrate the history
+              and the spirit of entrepreneurship; and to inspire the leaders and
+              roblem solvers of today and tomorrow. This 2-day extravaganza will
+              see students and budding enthusiasts on a common stage.
+            </div>
+
+            <div className="project_links">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://esummit.in/"
+              >
+                <button> Visit</button>
+              </a>
+              {/* b<button> Code </button> */}
+            </div>
+          </div>
+        </div>
+
+          
       </div>
     );
   }
