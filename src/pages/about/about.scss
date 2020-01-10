@@ -1,67 +1,19 @@
+@import "../../index";
+
 .about {
-    background: #F5F5F5;
-    padding: 4.5rem 7.2vw;
-}
+  margin: 8.5265rem $leftRightPadding;
 
-.work_array {
+  display: grid;
+  grid-template-columns: 33.1875rem auto;
+  grid-column-gap: 10%;
 
-    margin-top: 1em;
-    display: flex;
-
-    .work_unit {
-        background: white;
-        padding: 36px;
-        border-radius: 0.3125rem;
-        box-shadow: 0rem 0.1875rem 2.5rem rgba(100, 103, 105, 0.12);
-        width: 15em;
-        margin-right: 17vw;
-
-        .work_title {
-            font-weight: 500;
-            font-size: 1.5em;
-            text-align: center;
-
-
-        }
-
-        ul {
-            margin: 0;
-            padding: 0;
-            margin-top: 1.5em;
-            list-style-type: none;
-            text-align: center;
-
-            li {
-                margin-top: 0.5em;
-            }
-        }
-    }
-
-    .work_unit:last-child {
-        margin-right: 0vw;
-    }
-
-
-}
-
-.about_resume {
-    padding-top: 4rem;
-    text-align: center;
-
-    a {
-        padding: 1rem 2rem;
-        background: rgba(241, 79, 79,0.8);
-        color : snow;
-        border-radius: 0.25rem;
-        font-weight: 700;
-        font-size: 1.2rem;
-        transition: 0.2 ease all;
-    }
-    a:hover{
-        background: rgba(241, 79, 79,1);
-    }
-}
-
-.about_desc{
-    line-height: 140%;
+  .about-desc {
+    text-align: left;
+ 
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: $darkWhite;
+    opacity: 1;
+  }
 }

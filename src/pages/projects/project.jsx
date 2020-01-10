@@ -41,7 +41,7 @@ export default class Projects extends Component {
             <div className="project_title">College Radio </div>
 
             <div className="project_description">
-            College Radio allows simultaneous live viewing of videos in real-time, akin to facebook’s watch party. It also allows real-time changes in track and queues.  Synchronization is achieved using WebSockets.
+              College Radio allows simultaneous live viewing of videos in real-time, akin to facebook’s watch party. It also allows real-time changes in track and queues.  Synchronization is achieved using WebSockets.
             </div>
 
             <div className="project_links">
@@ -71,7 +71,7 @@ export default class Projects extends Component {
             <div className="project_title">Srishti Website </div>
 
             <div className="project_description">
-            Srishti is the Annual Technical Exhibition of IIT Roorkee that aims towards integrating all realms of technical activities conducted within the R-land. Srishti has inspired the brilliant minds of our institute to come up with creative ideas and practical innovations
+              Srishti is the Annual Technical Exhibition of IIT Roorkee that aims towards integrating all realms of technical activities conducted within the R-land. Srishti has inspired the brilliant minds of our institute to come up with creative ideas and practical innovations
             </div>
 
             <div className="project_links">
