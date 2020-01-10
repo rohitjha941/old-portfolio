@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./projects.scss";
 import Rethink from "../../static/projects/rethink.png";
 import Esummit from "../../static/projects/esummit.png";
+import Radio from "../../static/projects/radio.png";
 import Srishti from "../../static/projects/srishti.png";
 // import HorizontalScroll from "react-scroll-horizontal";
 export default class Projects extends Component {
- 
   render() {
     return (
       <div reverseScroll={true} className="projects">
@@ -37,6 +37,67 @@ export default class Projects extends Component {
         </div>
 
         <div className="projects_unit">
+          <img className="project_image" src={Radio} alt="College Radio" />
+          <div className="project_details">
+            <div className="project_title">College Radio </div>
+
+            <div className="project_description">
+
+            </div>
+
+            <div className="project_links">
+              {/*
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://esummit.in/"
+              >
+                <button> Visit</button>
+              </a>
+            */}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/rohitjha941/radio"
+              >
+                <button> Code </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects_unit">
+          <img className="project_image" src={Srishti} alt="Srishti Website" />
+          <div className="project_details">
+            <div className="project_title">Srishti Website </div>
+
+            <div className="project_description">
+              
+            </div>
+
+            <div className="project_links">
+  
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://srishti.iitr.ac.in/"
+              >
+                <button> Visit</button>
+              </a>
+         
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/rohitjha941/srishti"
+              >
+                <button> Code </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="projects_unit">
           <img className="project_image" src={Esummit} alt="E-Summit Website" />
           <div className="project_details">
             <div className="project_title">E-Summit 2019 </div>
@@ -60,8 +121,6 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
-
-          
       </div>
     );
   }
