@@ -9,6 +9,10 @@ handlers:
   - url: /(.*\.(json|ico|js))$
     static_files: build/\1
     upload: build/.*\.(json|ico|js)$
+  
+  - url: /resume/*
+    static_files: build/*
+    upload: resume/index.html
 
   - url: .*
     static_files: build/index.html
