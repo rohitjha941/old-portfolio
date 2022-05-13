@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./projects.scss";
 import Rethink from "../../static/projects/rethink.png";
 import Esummit from "../../static/projects/esummit.png";
