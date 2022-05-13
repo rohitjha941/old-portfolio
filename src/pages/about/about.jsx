@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import "./about.scss";
+import styles from "./about.module.scss";
 import Heading from "../../components/heading/heading";
-import { defaults } from "gh-pages";
 
 function About() {
   return (
-    <div className="about">
-      <div className="about-desc">
-        <div className="about-head">About Me</div>I am a pre-final year
+    <div className={styles.about}>
+      <div className={styles.about_desc}>
+        <div className={styles.about_head}>About Me</div>I am a pre-final year
         student at IIT Roorkee. I am interested in the field of Back-End,
         Containers & Cloud as Code & I love working on projects which
         simplifies lives. I've worked with various diverse web, cloud and
@@ -15,65 +14,67 @@ function About() {
         <br />
         <br />
         <br />
-        <div className="about-head">Connect</div>
+        <div className={styles.about_head}>Connect</div>
         <div>
-          <a className="about-connect-link" href="mailto:rjha@ph.iitr.ac.in">
-            <i class="fas fa-envelope" /> rjha@ph.iitr.ac.in
+          <a className={styles.about_connect_link} href="mailto:rjha@ph.iitr.ac.in">
+            rjha@ph.iitr.ac.in
           </a>
 
           <a
             target="_blank"
-            className="about-connect-link"
+            className={styles.about_connect_link}
             rel="noopener noreferrer"
             href="https://github.com/rohitjha941/"
           >
-            <i class="fab fa-github" /> Github
+            Github
           </a>
 
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="http://www.linkedin.com/in/rohitjha941"
-            className="about-connect-link"
+            className={styles.about_connect_link}
           >
-            <i class="fab fa-linkedin-in" /> Linkedin
-          </a>
-        </div>
-      </div>
+            Linkedin
+          </a >
+        </div >
+      </div >
 
-      <div className="about-skills">
-        <div className="about-head">Skills</div>
+
+      <div className={styles.about_skills}>
+        < div className={styles.about_head}>Skills</div>
         <Heading>Languages</Heading>
 
-        <div className="about-desc">
+        <div className={styles.about_desc}>
           C++, Fortran, JavaScript, Python, PHP
-        </div>
+        </div >
 
         <br />
         <Heading>FrontEnd</Heading>
-        <div className="about-desc">
+        <div className={styles.about_desc}>
           React, Redux, AngularJS, jQuery, VueJs
-        </div>
+        </div >
 
         <br />
         <Heading>BackEnd</Heading>
-        <div className="about-desc">Django, Django Rest, Laravel</div>
+        <div className={styles.about_desc}>Django, Django Rest, Laravel</div>
 
-        <br />
+        < br />
         <Heading>Operating Systems</Heading>
-        <div className="about-desc">Windows, Ubuntu, Fedora</div>
+        <div className={styles.about_desc}>Windows, Ubuntu, Fedora</div>
 
-        <br />
+        < br />
         <Heading>DevOps</Heading>
-        <div className="about-desc">
-          Infrastructure as a Code, Terraform, GitLab-CI, AWS, Azure,
+        <div className={styles.about_desc}>
+          Infrastructure as a Code, Terraform, GitLab - CI, AWS, Azure,
           Container Orchestration
-        </div>
+        </div >
 
         <br />
         <Heading>Databases</Heading>
-        <div className="about-desc">MySQL, Postgresql</div>
-      </div>
+        <div className={styles.about_desc}>MySQL, Postgresql</div>
+      </div >
+
     </div>
   );
 }

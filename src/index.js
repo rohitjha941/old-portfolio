@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Header from './pages/header/header';
 import "./index.scss";
 import Home from './pages/home/home';
-
+import About from './pages/about/about';
 import {
   BrowserRouter,
   Routes,
@@ -16,6 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="" element={<Home />} />
+        <Route path="about" element={<About />} />
       </Routes>
     </BrowserRouter>
   )

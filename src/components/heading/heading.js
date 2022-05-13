@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./heading.scss";
-export default class Heading extends Component {
-  render() {
-    return <div className="heading">{this.props.children}</div>;
-  }
+import styles from "./heading.module.scss";
+
+function Heading(props) {
+  return <div className={styles.heading}>{props.children}</div>;
 }
+export default Heading;
