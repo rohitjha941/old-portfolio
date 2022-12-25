@@ -16,8 +16,8 @@ function About() {
         <br />
         <div className={styles.about_head}>Connect</div>
         <div>
-          <a className={styles.about_connect_link} href="mailto:rjha@ph.iitr.ac.in">
-            rjha@ph.iitr.ac.in
+          <a className={styles.about_connect_link} href="mailto:me+porfolio@rjha.dev">
+            me@rjha.dev
           </a>
 
           <a
