@@ -4,6 +4,7 @@ import Header from './pages/header/header';
 import "./index.scss";
 import Home from './pages/home/home';
 import About from './pages/about/about';
+import Projects from './pages/projects/project';
 import {
   BrowserRouter,
   Routes,
@@ -17,10 +18,12 @@ function App() {
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   )
 }
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

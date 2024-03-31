@@ -14,12 +14,12 @@ function Header() {
         </NavLink>
       </span>
       <span className={styles.nav_array}>
-        {/* <NavLink
+        <NavLink
           to="/projects"
           className={({ isActive }) => (isActive ? styles.nav_array_active : styles.nav_items)}
         >
           Projects
-        </NavLink> */}
+        </NavLink>
         <NavLink
           to="/about"
           className={({ isActive }) => (isActive ? styles.nav_array_active : styles.nav_items)}
